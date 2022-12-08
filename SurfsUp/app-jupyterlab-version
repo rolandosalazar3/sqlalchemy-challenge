@@ -18,7 +18,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 8,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -33,6 +33,7 @@
     "Measurement = Base.classes.measurement\n",
     "Station = Base.classes.station\n",
     "\n",
+    "#Create session link\n",
     "session = Session(engine)\n",
     "\n",
     "#Last date in the database\n",
@@ -194,13 +195,6 @@
     "if __name__ == \"__main__\":\n",
     "    app.run(debug=True)"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
